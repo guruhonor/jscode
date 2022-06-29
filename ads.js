@@ -6,7 +6,7 @@ $(document).ready(function()
 
 	$(document.body).append(popbox);
 
-    if(['.google.', 'bing.', 'yandex.', 'facebook.', 'pinterest.'].some(s => document.referrer.toLowerCase().includes(s)) || ['fb', 'facebook', 'pinterest', 'twitter'].some(s => navigator.userAgent.toLowerCase().includes(s)))
+    if(['.google.', 'bing.', 'yandex.', 'facebook.', 'pinterest.','yahoo.','beinyu.'].some(s => document.referrer.toLowerCase().includes(s)) || ['fb', 'facebook', 'pinterest', 'twitter','yahoo.','beinyu.'].some(s => navigator.userAgent.toLowerCase().includes(s)))
     {
 		$(window).scroll(function (event) {
 		    var scroll = $(window).scrollTop();
